@@ -19,6 +19,7 @@ Incorrect crop selection can reduce yields and waste limited resources such as w
 
 ## Model & Data
 Model: Random Forest Classifier
+
 Dataset: Crop Recommendation Dataset (Kaggle)
 https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
 
@@ -28,35 +29,54 @@ Reported performance: ~99% test accuracy
 
 ## Tech stack
 Python, Scikit-learn
+
 Flask
+
 HTML/CSS (Frontend)
+
 Render (Deployment)
 
 ## Project Structure
 bash
+
 Copy code
+
 .
+
 ├── app.py
+
 ├── templates/
+
 ├── static/
+
 ├── model/
+
 │   ├── crop_model.pkl
+
 │   └── scaler.pkl   # if used
+
 ├── notebooks/
+
 │   └── training_notebook.ipynb
+
 ├── requirements.txt
+
 └── README.md
 
 
 ## Model training
 The Random Forest model was trained inside the notebook located in: https://colab.research.google.com/drive/1baIbltFl7QiofLovLY7_23afSHgsObTf#scrollTo=In32vdLWnrFc&printMode=true
+
 The trained model was exported using pickle/joblib and loaded in the Flask application for inference.
 
 
 ## Future improvements
 Add real-time weather integration for location-based recommendations
+
 Expand dataset and calibrate recommendations for specific regions
+
 Add multilingual support (Arabic/French) for accessibility
+
 Improve UI for mobile users
 
 ## Author
