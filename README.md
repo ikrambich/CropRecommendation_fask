@@ -1,6 +1,6 @@
 # Crop Recommendation System (Random Forest + Flask)
 
-A machine learning–powered crop recommendation tool that suggests the best crop to grow based on soil nutrients and local climate conditions. Built to support data-driven, sustainable agriculture—especially for beginner farmers and farmers in rural areas.
+A machine learning–powered crop recommendation tool that suggests the best crop to grow based on soil nutrients and local climate conditions. Built to support data-driven, sustainable agriculture, especially for beginner farmers and farmers in rural areas.
 
 ## Demo
 - Live app: https://croprecommendation-fask-2.onrender.com/
@@ -21,7 +21,9 @@ Incorrect crop selection can reduce yields and waste limited resources such as w
 Model: Random Forest Classifier
 Dataset: Crop Recommendation Dataset (Kaggle)
 https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
+
 Features: N, P, K, temperature, humidity, pH, rainfall
+
 Reported performance: ~99% test accuracy 
 
 ## Tech stack
